@@ -26,7 +26,7 @@ sub largestnum {        #finds largest number in the array
     return $largest;
 }
 
-sub find {
+sub find {          #takes scalar and an array, returns 1 if scalar is found in the array
     my $num = $_[0];
     my @array = @_;
     shift @array;
